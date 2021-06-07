@@ -17,6 +17,7 @@ class Main extends React.Component{
                                 title= {item.title}
                                 imageUrl={item.image_url}
                                 description = {item.description}
+                                key={idx}
 
                            />
                         </Col>
