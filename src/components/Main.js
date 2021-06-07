@@ -2,7 +2,7 @@ import React from 'react';
 import HornedBeasts from './HornedBeasts';
 import infoData from  './data.json';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+
 
 class Main extends React.Component{
     render(){
