@@ -1,6 +1,6 @@
 import React from 'react';
-import Main from './Main';
 import Card from 'react-bootstrap/Card';
+
 class HornedBeasts extends React.Component {
     constructor(props) {
         super(props);
@@ -30,8 +30,10 @@ class HornedBeasts extends React.Component {
                     <Card.Body>
                         <Card.Title>{this.props.title}</Card.Title>
                         <Card.Text>
-                            <p>❤ : {this.state.numberClick}</p>
-                            <p>{this.props.description}</p>
+                                ❤ : {this.state.numberClick}
+                        </Card.Text>
+                        <Card.Text>
+                                {this.props.description}
                         </Card.Text>
 
                     </Card.Body>
