@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.navbarHead{
+  width:100%;
+  background-color: #da7f8f;
+  text-align: center;
+  padding:20px 0;
+  margin-bottom: 60px;
+}
+.navbarHead h1{
+  text-align: center !important;
+}
+.card {
+  background-color: #a7bbc7;
+  
+}
+.card-img-top{
+  height: 300px !important;
+}
+.foo{
+  width: 100%;
+  padding: 10px 0 ;
+  text-align: center;
+  background-color: #a7bbc7;
+  margin-top: 60px;
+}
