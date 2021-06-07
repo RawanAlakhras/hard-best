@@ -2,7 +2,9 @@ import React from 'react';
 class Header extends React.Component{
     render(){
         return(
-            <h1>Header</h1>
+            <div className='navbarHead'>
+                <h1>Horned Animals</h1>
+            </div>
         )
     }
 }
