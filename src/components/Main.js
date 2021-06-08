@@ -3,8 +3,15 @@ import HornedBeasts from './HornedBeasts';
 import infoData from  './data.json';
 import Row from 'react-bootstrap/Row';
 
-
 class Main extends React.Component{
+    constructor(props){
+        super(props);
+        this.state={
+            show:false,
+
+        }
+    }
+
     render(){
         return(
            <>
@@ -14,7 +21,7 @@ class Main extends React.Component{
                 <Row xs={1} md={3} className="g-4">
                     {infoData.map((item,idx) => 
                         
-                           <HornedBeasts 
+                           <HornedBeasts onClick={this.handelClick}
                                 title= {item.title}
                                 imageUrl={item.image_url}
                                 description = {item.description}
@@ -25,6 +32,8 @@ class Main extends React.Component{
                     
                     )}
                 </Row>
+                
+     
             </div>
            </>
             
